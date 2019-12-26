@@ -50,6 +50,7 @@ public abstract class Tower : MonoBehaviour
     protected virtual void Shoot(Enemy enemy)
     {
         if (!enemy.TakeShot(damage)) return;
+        GameManager.Instance.defeatedEnemies++;
         Target = null;
     }
 

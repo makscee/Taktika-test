@@ -1168,6 +1168,11 @@ PrefabInstance:
       propertyPath: DefeatScreen
       value: 
       objectReference: {fileID: 1711015460}
+    - target: {fileID: 6071907596145281642, guid: 7180dc614c7fe8d49a4333d54be69f21,
+        type: 3}
+      propertyPath: DefeatText
+      value: 
+      objectReference: {fileID: 1091919886}
     - target: {fileID: 6071907596145281643, guid: 7180dc614c7fe8d49a4333d54be69f21,
         type: 3}
       propertyPath: m_Name

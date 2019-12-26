@@ -8,9 +8,11 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
     public static GameConfig GameConfig;
     public EnemyPathProvider EnemyPathProvider;
+
+    public int defeatedEnemies = 0;
     
     // UI
-    public Text Gold, Cost, Lives;
+    public Text Gold, Cost, Lives, DefeatText;
     public GameObject DefeatScreen;
     private void Awake()
     {
@@ -43,5 +45,6 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0;
         DefeatScreen.SetActive(true);
+        DefeatText.text = "DEFEAT\nEnemies killed: " + defeatedEnemies;
     }
 }
