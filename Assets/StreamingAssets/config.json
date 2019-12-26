@@ -1,0 +1,7 @@
+{
+  "waveDuration": 10,
+  "waveEnemyCountSpread": 3,
+  "upgradeCost": 10,
+  "startLives": 10,
+  "startGold": 0
+}
