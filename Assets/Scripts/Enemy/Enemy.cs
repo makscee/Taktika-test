@@ -22,7 +22,7 @@ public class Enemy : MonoBehaviour
     {
         if (PathPassed >= 1f)
         {
-            PlayerResources.Lives--;
+            PlayerResources.Lives -= damage;
             Die(false);
             return;
         }
