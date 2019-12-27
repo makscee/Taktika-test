@@ -38,7 +38,7 @@ public class EnemySpawner : MonoBehaviour
     {
         Debug.Log("Enemies left: " + _enemiesLeft);
         if (_enemiesLeft <= 0) return;
-        Instantiate(Enemy.Prefab);
+        EnemyPool.GetNewEnemy();
         _enemiesLeft--;
     }
 

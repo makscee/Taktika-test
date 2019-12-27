@@ -7,10 +7,10 @@ public class BasicEnemy : Enemy
     private const float BlinkTime = 0.2f;
     public SpriteRenderer spriteRenderer;
 
-    protected override void Start()
+    public override void Init()
     {
         _initColor = spriteRenderer.color;
-        base.Start();
+        base.Init();
     }
 
     public override bool TakeShot(float dmg)
@@ -24,5 +24,12 @@ public class BasicEnemy : Enemy
         spriteRenderer.color = Color.white;
         yield return new WaitForSeconds(BlinkTime);
         spriteRenderer.color = _initColor;
+    }
+
+    protected override void Die(bool giveGold = true)
+    {
+        StopAllCoroutines();
+        spriteRenderer.color = _initColor;
+        base.Die(giveGold);
     }
 }

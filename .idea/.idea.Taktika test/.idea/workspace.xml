@@ -15,6 +15,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tower/UpgradedBasicTower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D0D4D5C5-4770-4C19-B779-34F45540E71D/54/33bb6fbf/JsonUtility.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/Resources/Enemy.prefab" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyPool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/A278EBD4-4AB0-472B-B8E6-38263E06CD61/06/845fc6c2/Random.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPath/EnemyPath.cs" root0="FORCE_HIGHLIGHTING" />
@@ -36,16 +37,17 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyGrid.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPath/EnemyPath.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPath/EnemyPathProvider.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BasicEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tower/UpgradedBasicTower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tower/BasicTower.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/StreamingAssets/config.json" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerResources/PlayerResources.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Tower/Tower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemySpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyPool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemy/BasicEnemy.cs" />
       </list>
     </option>
   </component>

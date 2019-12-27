@@ -13,6 +13,11 @@ public class Enemy : MonoBehaviour
 
     protected virtual void Start()
     {
+        Init();
+    }
+
+    public virtual void Init()
+    {
         _path = GameManager.Instance.EnemyPathProvider.GetPath();
         transform.position = _path.Move(0, 0);
         EnemyGrid.InitPosition(this);
@@ -42,7 +47,7 @@ public class Enemy : MonoBehaviour
     protected virtual void Die(bool giveGold = true)
     {
         EnemyGrid.ClearPosition(this);
-        Destroy(gameObject);
+        gameObject.SetActive(false);
         if (giveGold)
         {
             PlayerResources.Gold += reward;
